@@ -9,13 +9,13 @@ Guardei essas anotações e comandos afim de facilitar minha vida da hora de mat
 docker ps -aq
 ```
 
-## Pare todos os contêineres em execução
+## Parar todos os contêineres em execução
 
 ```docker
 docker stop $(docker ps -aq)
 ```
 
-## Remova todos os contêineres
+## Remover todos os contêineres
 
 ```docker
 docker rm $(docker ps -aq)
